@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Academy Choucair" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-05T15:46:51" hostname="ALEXANDEROÑATE" time="22.872">
+<testsuite name="Academy Choucair" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-05T22:33:03" hostname="ALEXANDEROÑATE" time="24.469">
   <properties/>
-  <testcase name="Search for an automation course" classname="Academy Choucair" time="22.872"/>
-  <system-out><![CDATA[10:46:51.521 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Documents/Dev/IntelliJ/co.com.choucair.certification.proyectbase/src/test/resources/features/academyChoucair.feature
-10:46:51.521 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/Documents/Dev/IntelliJ/co.com.choucair.certification.proyectbase/src/test/resources/features/academyChoucair.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-10:46:51.599 [Test worker] INFO  - 
+  <testcase name="Search for an automation course" classname="Academy Choucair" time="24.469"/>
+  <system-out><![CDATA[17:33:04.134 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Documents/Dev/IntelliJ/co.com.choucair.certification.proyectbase/src/test/resources/features/academyChoucair.feature
+17:33:04.134 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/Documents/Dev/IntelliJ/co.com.choucair.certification.proyectbase/src/test/resources/features/academyChoucair.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+17:33:04.234 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -13,67 +13,66 @@
 
 Search for an automation course(academy-choucair;search-for-an-automation-course)
 -------------------------------------------------------------------
-10:46:51.637 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Academy Choucair
-10:46:52.070 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ChoucairAcademyStepDefinitions.thanAlexWantsToLearnAutomationAtTheAcademyChoucair - performAs
-10:46:52.091 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: OpenUp.performAs - {0} opens the #targetPage
-10:46:52.161 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
-10:46:52.421 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=88 in cache (valid until 11:42:12 05/02/2021 COT)
-10:46:52.421 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome88=88.0.4324.96 in cache (valid until 18:04:00 05/02/2021 COT)
-10:46:52.421 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 88.0.4324.96 (resolved driver for Chrome 88)
-10:46:52.421 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 88.0.4324.96 found in cache
-10:46:52.421 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alex\.cache\selenium\chromedriver\win32\88.0.4324.96\chromedriver.exe
-10:46:53.134 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-10:46:53.136 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
-10:46:59.052 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
-10:46:59.052 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
-10:46:59.781 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\9d375d0c2a128be2eae3fd9a61ece506ab9d253ca27a7741f5ec8eae46bfce01.png
-10:46:59.781 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPage
-10:46:59.797 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
-10:46:59.797 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ChoucairAcademyStepDefinitions.thanAlexWantsToLearnAutomationAtTheAcademyChoucair - performAs
-10:46:59.828 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} clicks on #target
-10:46:59.828 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Button that shows us the form to login
-10:47:00.685 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\81246d18508197576210a76d5f5685c1998e8555d2d09eb8c3a0f2f03f7861e9.png
-10:47:00.685 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-10:47:00.685 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4366244157496179097
-10:47:00.685 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\81246d18508197576210a76d5f5685c1998e8555d2d09eb8c3a0f2f03f7861e9.png
-10:47:00.694 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} enters #theTextAsAString into #target
-10:47:00.694 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for where do we write the user
-10:47:01.493 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\5ad2c7ade752b6c3dab77443dac1c8068af969f7db14b49ca2c5af6de20a8514.png
-10:47:01.493 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
-10:47:01.493 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} enters #theTextAsAString into #target
-10:47:01.493 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for where do we write the password
-10:47:02.285 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\9f0859e0975ce8df2b96f626a7c24333dfdf17bfc41a1848c87721635c640d59.png
-10:47:02.285 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
-10:47:02.300 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} clicks on #target
-10:47:02.300 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for button to confirm login
-10:47:05.911 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\a0196ad828275705bdd23a6328f69bfa34d8518f93017ac211419dfdd1a0c88f.png
-10:47:05.911 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-10:47:05.911 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4376404121851461763
-10:47:05.911 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\a0196ad828275705bdd23a6328f69bfa34d8518f93017ac211419dfdd1a0c88f.png
-10:47:05.936 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
-10:47:05.974 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform - performAs
-10:47:05.986 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Search.performAs - {0} clicks on #target
-10:47:05.986 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for link to the search page
-10:47:08.908 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\3e4efe2022b9dffe935628d6f60dd217011e095965c4ff6c1c1ce8f9ae903941.png
-10:47:08.908 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-10:47:08.908 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Search.performAs - {0} enters #theTextAsAString into #target
-10:47:08.908 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for where to write the course to search
-10:47:09.626 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\513af700ebae1fe2956ccffd6305357742b86c5bedae0dc40078352f26efbcbe.png
-10:47:09.626 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
-10:47:09.641 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Search.performAs - {0} clicks on #target
-10:47:09.641 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for button to confirm search
-10:47:11.347 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\2fb0a02fa6af56a22e8cfba1d90ac2452388b3645229209ec131fc8d3ce2ff33.png
-10:47:11.348 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-10:47:11.351 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Search.performAs - {0} clicks on #target
-10:47:11.351 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for link to the course page
-10:47:12.939 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\0d006a804b29c945864119b4a6b5ed40661643b0d1a443d4df7970edded8aa74.png
-10:47:12.939 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-10:47:12.955 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
-10:47:13.087 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Extraer el nombre del curso
-10:47:13.553 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\7d9c764c1f312cb89530905eba286673e04c6b1f6bec4d468e2ac1203eea71d2.png
-10:47:13.553 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6867369101895501321
-10:47:13.553 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\7d9c764c1f312cb89530905eba286673e04c6b1f6bec4d468e2ac1203eea71d2.png
-10:47:14.293 [Test worker] INFO  - 
+17:33:04.281 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Academy Choucair
+Step argument class io.cucumber.core.gherkin.messages.GherkinMessagesDataTableArgument
+17:33:04.788 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ChoucairAcademyStepDefinitions.thanAlexWantsToLearnAutomationAtTheAcademyChoucair - performAs
+17:33:04.798 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: OpenUp.performAs - {0} opens the #targetPage
+17:33:04.869 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+17:33:05.130 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=88 in cache (valid until 18:27:59 05/02/2021 COT)
+17:33:05.130 [Test worker] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome88=88.0.4324.96 in cache (valid until 18:04:00 05/02/2021 COT)
+17:33:05.146 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 88.0.4324.96 (resolved driver for Chrome 88)
+17:33:05.146 [Test worker] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 88.0.4324.96 found in cache
+17:33:05.146 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Alex\.cache\selenium\chromedriver\win32\88.0.4324.96\chromedriver.exe
+17:33:05.812 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+17:33:05.812 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
+17:33:11.718 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+17:33:11.718 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+17:33:12.553 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\9d375d0c2a128be2eae3fd9a61ece506ab9d253ca27a7741f5ec8eae46bfce01.png
+17:33:12.569 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #targetPage
+17:33:12.569 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+17:33:12.585 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ChoucairAcademyStepDefinitions.thanAlexWantsToLearnAutomationAtTheAcademyChoucair - performAs
+17:33:12.654 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} clicks on #target
+17:33:12.654 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Button that shows us the form to login
+17:33:13.586 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\68d658774bdf73d89a3d0280dc90055156a81abfa3d8e2553d0ad6691eda4300.png
+17:33:13.586 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+17:33:13.586 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7865472361782835280
+17:33:13.586 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\68d658774bdf73d89a3d0280dc90055156a81abfa3d8e2553d0ad6691eda4300.png
+17:33:13.586 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} enters #theTextAsAString into #target
+17:33:13.586 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for where do we write the user
+17:33:14.435 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\5ad2c7ade752b6c3dab77443dac1c8068af969f7db14b49ca2c5af6de20a8514.png
+17:33:14.435 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+17:33:14.435 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} enters #theTextAsAString into #target
+17:33:14.435 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for where do we write the password
+17:33:15.353 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\9f0859e0975ce8df2b96f626a7c24333dfdf17bfc41a1848c87721635c640d59.png
+17:33:15.353 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+17:33:15.359 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.performAs - {0} clicks on #target
+17:33:15.359 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for button to confirm login
+17:33:19.342 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\4145fb7e8b0c88e597b44017e77ec825d4e0cf30a4593ac66ce4fe4eed02ff47.png
+17:33:19.342 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+17:33:19.358 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+Step argument class io.cucumber.core.gherkin.messages.GherkinMessagesDataTableArgument
+17:33:19.392 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform - performAs
+17:33:19.403 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Search.performAs - {0} clicks on #target
+17:33:19.403 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for link to the search page
+17:33:22.562 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\3e4efe2022b9dffe935628d6f60dd217011e095965c4ff6c1c1ce8f9ae903941.png
+17:33:22.562 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+17:33:22.562 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Search.performAs - {0} enters #theTextAsAString into #target
+17:33:22.562 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for where to write the course to search
+17:33:23.327 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\513af700ebae1fe2956ccffd6305357742b86c5bedae0dc40078352f26efbcbe.png
+17:33:23.327 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+17:33:23.327 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Search.performAs - {0} clicks on #target
+17:33:23.327 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for button to confirm search
+17:33:25.380 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\2fb0a02fa6af56a22e8cfba1d90ac2452388b3645229209ec131fc8d3ce2ff33.png
+17:33:25.381 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+17:33:25.384 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Search.performAs - {0} clicks on #target
+17:33:25.385 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for link to the course page
+17:33:26.976 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\0d006a804b29c945864119b4a6b5ed40661643b0d1a443d4df7970edded8aa74.png
+17:33:26.976 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+17:33:26.983 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+Step argument class io.cucumber.core.gherkin.messages.GherkinMessagesDataTableArgument
+17:33:27.161 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Extraer el nombre del curso
+17:33:27.685 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\0d006a804b29c945864119b4a6b5ed40661643b0d1a443d4df7970edded8aa74.png
+17:33:28.419 [Test worker] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -84,11 +83,11 @@ Search for an automation course(academy-choucair;search-for-an-automation-course
 Search for an automation course
 ----------------------------------------------------------------------------
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 2378
+  <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 32564
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-feb 05, 2021 10:46:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+feb 05, 2021 5:33:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

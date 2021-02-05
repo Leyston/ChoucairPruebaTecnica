@@ -47,7 +47,7 @@ dependencies {
     implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityCoreVersion"
     implementation "net.serenity-bdd:serenity-screenplay-rest:$rootProject.ext.serenityCoreVersion"
     implementation "net.serenity-bdd:serenity-cucumber6:$rootProject.ext.serenityCucumberVersion"
-
+    testImplementation 'io.cucumber:cucumber-java:6.8.1'
 
 
     /*testCompile "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
