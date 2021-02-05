@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.choucair.certification.proyectbase.runners.RunnerTags" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ALEXANDEROÑATE" time="0.0">
+  <properties/>
+  <system-out><![CDATA[10:46:50.819 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documents\Dev\IntelliJ\co.com.choucair.certification.proyectbase\serenity.properties 
+10:46:50.866 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documents\Dev\IntelliJ\co.com.choucair.certification.proyectbase\serenity.properties 
+10:46:50.866 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documents\Dev\IntelliJ\co.com.choucair.certification.proyectbase\serenity.properties 
+10:46:50.882 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+10:46:50.882 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/driver/chromedriver.exe
+10:46:50.882 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - feature.file.encoding=UTF8
+10:46:50.882 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.swithces=--start-maximized
+10:46:50.882 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.report.encoding=UTF8
+10:46:50.882 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.test.root=net.thucydides.showcase.cucumber.junit
+10:46:50.882 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.verbose.steps=FALSE
+10:46:50.882 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeout.implicitlywait=10000
+10:46:50.882 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Demo Project suing Serenity and Cucumber
+10:46:50.882 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+10:46:51.198 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Documents/Dev/IntelliJ/co.com.choucair.certification.proyectbase/src/test/resources/features/academyChoucair.feature
+10:46:51.198 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///D:/Documents/Dev/IntelliJ/co.com.choucair.certification.proyectbase/src/test/resources/features/academyChoucair.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+10:46:51.352 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documents\Dev\IntelliJ\co.com.choucair.certification.proyectbase\serenity.properties 
+10:46:51.383 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documents\Dev\IntelliJ\co.com.choucair.certification.proyectbase\serenity.properties 
+10:46:51.383 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM D:\Documents\Dev\IntelliJ\co.com.choucair.certification.proyectbase\serenity.properties 
+10:46:51.383 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+10:46:51.383 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/driver/chromedriver.exe
+10:46:51.383 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - feature.file.encoding=UTF8
+10:46:51.383 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.swithces=--start-maximized
+10:46:51.383 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.report.encoding=UTF8
+10:46:51.399 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.test.root=net.thucydides.showcase.cucumber.junit
+10:46:51.399 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.verbose.steps=FALSE
+10:46:51.399 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeout.implicitlywait=10000
+10:46:51.399 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Demo Project suing Serenity and Cucumber
+10:46:51.399 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.take.screenshots=AFTER_EACH_STEP
+10:46:51.405 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+10:46:51.405 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@7c2e0149
+10:46:51.405 [Test worker] INFO  - Test Suite Started: Academy Choucair
+
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m23,110s
+
+
+10:47:14.293 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+10:47:14.355 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+10:47:14.377 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@4e454c1c
+10:47:14.377 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Academy Choucair:Search for an automation course
+10:47:14.377 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@4e454c1c: Generating report for test outcome: Academy Choucair:Search for an automation course
+10:47:14.377 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Search for an automation course to file D:\Documents\Dev\IntelliJ\co.com.choucair.certification.proyectbase\target\site\serenity\533c322e7819417b7a9f60720ef5a9c2eb9bec385ec9723aba6190f82ff4c82d.json (using temp file D:\Documents\Dev\IntelliJ\co.com.choucair.certification.proyectbase\target\site\serenity\533c322e7819417b7a9f60720ef5a9c2eb9bec385ec9723aba6190f82ff4c82d.json2856bd36-d6ba-4f66-998f-98060d5c2852)
+10:47:14.393 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Academy Choucair:Search for an automation course done
+10:47:14.393 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+10:47:14.393 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 16 ms
+10:47:14.393 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@33aeaa44
+10:47:14.409 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Academy Choucair:Search for an automation course
+10:47:14.409 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@33aeaa44: Generating report for test outcome: Academy Choucair:Search for an automation course
+10:47:14.409 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Search for an automation course in 533c322e7819417b7a9f60720ef5a9c2eb9bec385ec9723aba6190f82ff4c82d
+10:47:14.409 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: net.thucydides.showcase.cucumber.junit
+10:47:14.772 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Academy Choucair
+10:47:14.772 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Academy Choucair', type='feature' parent = 'null', cardNumber='null'}]
+10:47:14.780 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Search for an automation course-[]: Optional[Requirement{name='Academy Choucair', type='feature' parent = 'null', cardNumber='null'}]
+10:47:14.780 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Search for an automation course-[]: Optional[Requirement{name='Academy Choucair', type='feature' parent = 'null', cardNumber='null'}]
+10:47:14.793 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Search for an automation course-[]: Optional[Requirement{name='Academy Choucair', type='feature' parent = 'null', cardNumber='null'}]
+10:47:14.793 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Search for an automation course-[]: Optional[Requirement{name='Academy Choucair', type='feature' parent = 'null', cardNumber='null'}]
+10:47:14.801 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 533c322e7819417b7a9f60720ef5a9c2eb9bec385ec9723aba6190f82ff4c82d_screenshots.html
+10:47:15.090 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 533c322e7819417b7a9f60720ef5a9c2eb9bec385ec9723aba6190f82ff4c82d_screenshots.html in 289 ms
+10:47:15.090 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Academy Choucair:Search for an automation course in 533c322e7819417b7a9f60720ef5a9c2eb9bec385ec9723aba6190f82ff4c82d.html in directory target\site\serenity  
+10:47:15.090 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 533c322e7819417b7a9f60720ef5a9c2eb9bec385ec9723aba6190f82ff4c82d.html
+10:47:15.427 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 533c322e7819417b7a9f60720ef5a9c2eb9bec385ec9723aba6190f82ff4c82d.html in 337 ms
+10:47:15.427 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Academy Choucair:Search for an automation course done
+10:47:15.427 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+10:47:15.427 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1018 ms
+10:47:15.558 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+10:47:15.558 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/Alex/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/Alex/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.7/8095d0b9f7e0a9cd79a663c740e0f8fb31d0e2c8/slf4j-simple-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+]]></system-err>
+</testsuite>
