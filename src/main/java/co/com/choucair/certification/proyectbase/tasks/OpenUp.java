@@ -6,7 +6,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
 
 public class OpenUp implements Task {
-    private ChoucairAcademyPage choucirAcademyPage;
+    private ChoucairAcademyPage choucairAcademyPage;
 
     public static OpenUp thePage() {
         return Tasks.instrumented(OpenUp.class);
@@ -14,6 +14,6 @@ public class OpenUp implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Open.browserOn(choucirAcademyPage));
+        actor.attemptsTo(Open.browserOn(choucairAcademyPage));
     }
 }
