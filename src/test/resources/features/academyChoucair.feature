@@ -6,10 +6,10 @@
     @scenario1
     Scenario Outline: Search for an automation course
       Given than alex wants to learn automation at the academy Choucair
-        | strUser    | strPassword   |
+        | strUser   | strPassword   |
         | <strUser> | <strPassword> |
       When he search for the course on the Choucair academy platform
-        | srtCourse                             |
+        | srtCourse   |
         | <srtCourse> |
       Then he finds the course called resources
         | srtCourse   |
