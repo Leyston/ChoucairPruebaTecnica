@@ -3,7 +3,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class SearchCoursePage extends PageObject {
+public class SearchCoursePage {
     public static final Target LINK_SEARCH = Target.the("link to the search page")
             .located(By.xpath("//div[@id= 'certificaciones']//a[@class ='card_index']"));
     public static final Target INPUT_SEARCH = Target.the("where to write the course to search")

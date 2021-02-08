@@ -1,19 +1,19 @@
 co/com/choucair/certification/proyectbase/userinterface/ChoucairAcademyPage.java
  co.com.choucair.certification.proyectbase.userinterface.ChoucairAcademyPage
-co/com/choucair/certification/proyectbase/tasks/Search.java
- co.com.choucair.certification.proyectbase.tasks.Search
-co/com/choucair/certification/proyectbase/model/DataTablaConfigurator.java
- co.com.choucair.certification.proyectbase.model.DataTablaConfigurator
- co.com.choucair.certification.proyectbase.model.DataTablaConfigurator$1
-co/com/choucair/certification/proyectbase/userinterface/ChoucairAcademyLoginPage.java
- co.com.choucair.certification.proyectbase.userinterface.ChoucairAcademyLoginPage
-co/com/choucair/certification/proyectbase/questions/Answer.java
- co.com.choucair.certification.proyectbase.questions.Answer
-co/com/choucair/certification/proyectbase/userinterface/SearchCoursePage.java
- co.com.choucair.certification.proyectbase.userinterface.SearchCoursePage
+co/com/choucair/certification/proyectbase/tasks/OpenUp.java
+ co.com.choucair.certification.proyectbase.tasks.OpenUp
 co/com/choucair/certification/proyectbase/tasks/Login.java
  co.com.choucair.certification.proyectbase.tasks.Login
 co/com/choucair/certification/proyectbase/model/AcademyChoucairData.java
  co.com.choucair.certification.proyectbase.model.AcademyChoucairData
-co/com/choucair/certification/proyectbase/tasks/OpenUp.java
- co.com.choucair.certification.proyectbase.tasks.OpenUp
+co/com/choucair/certification/proyectbase/questions/Answer.java
+ co.com.choucair.certification.proyectbase.questions.Answer
+co/com/choucair/certification/proyectbase/userinterface/SearchCoursePage.java
+ co.com.choucair.certification.proyectbase.userinterface.SearchCoursePage
+co/com/choucair/certification/proyectbase/tasks/Search.java
+ co.com.choucair.certification.proyectbase.tasks.Search
+co/com/choucair/certification/proyectbase/userinterface/ChoucairAcademyLoginPage.java
+ co.com.choucair.certification.proyectbase.userinterface.ChoucairAcademyLoginPage
+co/com/choucair/certification/proyectbase/model/DataTablaConfigurator.java
+ co.com.choucair.certification.proyectbase.model.DataTablaConfigurator
+ co.com.choucair.certification.proyectbase.model.DataTablaConfigurator$1

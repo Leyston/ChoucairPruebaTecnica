@@ -26,9 +26,11 @@ public class ChoucairAcademyStepDefinitions {
     }
 
     @Given("^than alex wants to learn automation at the academy Choucair$")
-    public void thanAlexWantsToLearnAutomationAtTheAcademyChoucair(DataTable dataTable) throws Throwable  {
+    public void thanAlexWantsToLearnAutomationAtTheAcademyChoucair(List<AcademyChoucairData> academyChoucairData) throws Throwable  {
 
+/*
         List<AcademyChoucairData> academyChoucairData = dataTable.asList(AcademyChoucairData.class);
+*/
 
         // Write code here that turns the phrase above into concrete actions
         OnStage.theActorCalled("alex").wasAbleTo(OpenUp.thePage(), (Login.
@@ -36,16 +38,14 @@ public class ChoucairAcademyStepDefinitions {
     }
 
     @When("^he search for the course on the Choucair academy platform$")
-    public void heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(DataTable dataTable)
+    public void heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(List<AcademyChoucairData> academyChoucairData)
             throws Exception {
-        List<AcademyChoucairData> academyChoucairData = dataTable.asList(AcademyChoucairData.class);
         OnStage.theActorInTheSpotlight().attemptsTo(Search.the(academyChoucairData.get(0).getSrtCourse()));
 
     }
     @Then("^he finds the course called resources$")
-    public void heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(DataTable dataTable)
+    public void heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(List<AcademyChoucairData> academyChoucairData)
             throws Exception {
-        List<AcademyChoucairData> academyChoucairData = dataTable.asList(AcademyChoucairData.class);
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(academyChoucairData.get(0).getSrtCourse())));
 
     }
