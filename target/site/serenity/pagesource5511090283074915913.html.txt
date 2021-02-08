@@ -1,0 +1,9 @@
+<html lang="es-mx" xml:lang="es-mx"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Error</title>
+</head><body><div style="margin-top: 6em; margin-left:auto; margin-right:auto; color:#990000; text-align:center; font-size:large; border-width:1px;
+border-color:black; background-color:#ffffee; border-style:solid; border-radius: 20px; border-collapse: collapse;
+width: 80%; -moz-border-radius: 20px; padding: 15px">
+La partición de sesiones está llena. No es posible ingresar en este momento. Por favor notifique al administrador del servidor.
+</div></body></html>

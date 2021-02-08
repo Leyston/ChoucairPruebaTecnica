@@ -1,0 +1,65 @@
+defaultTasks 'clean', 'test', 'aggregate'
+
+repositories {
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.3.10")
+
+
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+compileJava.options.encoding = 'UTF-8'
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+ext {
+    slf4jVersion = '1.7.7'
+    serenityCoreVersion = '2.3.10'
+    serenityCucumberVersion = '2.3.10'
+    junitVersion = '4.13.1'
+    assertJVersion = '3.8.0'
+    logbackVersion = '1.2.3'
+}
+
+dependencies {
+
+    compile "ch.qos.logback:logback-classic:${logbackVersion}"
+
+    testImplementation group: "junit", name: "junit", version: "4.13.1"
+    testImplementation "org.assertj:assertj-core:3.12.2"
+    testImplementation "org.slf4j:slf4j-simple:${slf4jVersion}"
+    testImplementation "net.serenity-bdd:serenity-core:$rootProject.ext.serenityCoreVersion"
+    testImplementation "net.serenity-bdd:serenity-junit:$rootProject.ext.serenityCoreVersion"
+    implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityCoreVersion"
+    implementation "net.serenity-bdd:serenity-screenplay-rest:$rootProject.ext.serenityCoreVersion"
+    implementation "net.serenity-bdd:serenity-cucumber6:$rootProject.ext.serenityCucumberVersion"
+
+
+    /*testCompile "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-junit:${junitVersion}",
+            "net.serenity-bdd:serenity-cucumber6:${serenityCucumberVersion}",
+            "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}",
+            "junit:junit:${junitVersion}",
+            "org.assertj:assertj-core:${assertJVersion}"*/
+}
+
+
+
+gradle.startParameter.continueOnFailure = true
+
